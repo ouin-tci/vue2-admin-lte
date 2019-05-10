@@ -4,7 +4,7 @@
   "description": "adminLTE to vuejs v2.x converting project",
   "author": "devjin0617 <devjin0617@gmail.com>",
   "scripts": {
-    "mock": "./node_modules/.bin/json-server ./mock-server/index.js",
+    "mock": "./node_modules/.bin/json-server ./mock-server/index.js --port 3004",
     "dev-server": "node build/dev-server.js",
     "dev": "npm-run-all --parallel mock dev-server",
     "build": "node build/build.js",
